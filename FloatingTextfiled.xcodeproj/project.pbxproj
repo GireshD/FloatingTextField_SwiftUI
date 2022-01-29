@@ -11,6 +11,8 @@
 		6E86038027A572C1007EF2DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86037F27A572C1007EF2DE /* ContentView.swift */; };
 		6E86038227A572C2007EF2DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E86038127A572C2007EF2DE /* Assets.xcassets */; };
 		6E86038527A572C2007EF2DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E86038427A572C2007EF2DE /* Preview Assets.xcassets */; };
+		6E86038E27A57729007EF2DE /* FloatingTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86038D27A57729007EF2DE /* FloatingTextFieldView.swift */; };
+		6E86039127A57968007EF2DE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86039027A57968007EF2DE /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		6E86038127A572C2007EF2DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E86038427A572C2007EF2DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E86038627A572C2007EF2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E86038D27A57729007EF2DE /* FloatingTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextFieldView.swift; sourceTree = "<group>"; };
+		6E86039027A57968007EF2DE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				6E86037D27A572C1007EF2DE /* FloatingTextfiledApp.swift */,
+				6E86038D27A57729007EF2DE /* FloatingTextFieldView.swift */,
+				6E86039027A57968007EF2DE /* LoginView.swift */,
 				6E86037F27A572C1007EF2DE /* ContentView.swift */,
 				6E86038127A572C2007EF2DE /* Assets.xcassets */,
 				6E86038627A572C2007EF2DE /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E86038E27A57729007EF2DE /* FloatingTextFieldView.swift in Sources */,
 				6E86038027A572C1007EF2DE /* ContentView.swift in Sources */,
+				6E86039127A57968007EF2DE /* LoginView.swift in Sources */,
 				6E86037E27A572C1007EF2DE /* FloatingTextfiledApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
